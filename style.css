@@ -7,7 +7,7 @@
     transition: .5s ease;
 }
 
-.nav-item>a:hover,
+.nav-item > a:hover,
 .about-p
 {
     color: #ec5242;
@@ -24,7 +24,7 @@
 }
 
 .click .burger,
-.click  a > i {
+.click  a  >  i {
     display: none;
 }
 
@@ -59,26 +59,28 @@
 
 .about {
     background-image: url(images/main-background.png);
+    height: 60vh;
 }
 
 .intro {
     padding: 22px;
 }
 
-.intro>h1 {
+.intro > h1 {
     padding-top: 85px;
     font-size: 60px;
     font-family: 'COCOGOOSE';
 }
 
-.intro>p {
+.intro > p {
     margin-right: 2px;
     width: 70%;
     font-size: 20px;
     padding: 15px;
+    box-shadow: -4px 10px 20px 0px black;
 }
 
-.intro>button {
+.intro > button {
     border-color: #ec5242;
     font-size: 30px;
 }
@@ -89,10 +91,10 @@
     z-index: 1;
 }
 
-.mainProgram button>h4,
+.mainProgram button > h4,
 .feature-h5,
 .mainProgram hr,
-.intro>h1 {
+.intro > h1 {
     color: #ec5242;
 }
 
@@ -103,7 +105,7 @@
     width: 12%;
 }
 
-.mainProgram>div>button {
+.mainProgram > div > button {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.09);
@@ -111,7 +113,7 @@
     margin-bottom: 15px;
 }
 
-.mainProgram>div>button i {
+.mainProgram > div > button i {
     padding-right: 8px;
 }
 
@@ -177,7 +179,7 @@
         width: 15%;
     }
 
-    .intro>p {
+    .intro > p {
         width: 50%;
     }
 
@@ -185,16 +187,16 @@
         padding-left: 10%;
     }
 
-    .mainProgram>div>button {
+    .mainProgram > div > button {
         width: 20%;
         margin-right: 10px;
     }
 
-    .mainProgram>div>button:hover {
+    .mainProgram > div > button:hover {
         border: 2px solid #fff;
     }
 
-    .mainProgram>div>button i {
+    .mainProgram > div > button i {
         padding-bottom: 12px;
     }
 }
