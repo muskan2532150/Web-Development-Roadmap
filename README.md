@@ -2,10 +2,10 @@
 MAKING A PORTFOLIO
 
 ### User Interface
- ![Project Image]()
+ ![Project Image](images/website.png)
 
  ### Live Demo
- 
+ https://muskan2532150.github.io/First_Capstone/#feature
 
 ## Built With
 
