@@ -1,5 +1,5 @@
-# PORTFOLIO
-MAKING A PORTFOLIO
+# Web Development
+Making a Web Development Course Website
 
 ### User Interface
  ![Project Image](images/website.png)

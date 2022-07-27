@@ -1,39 +1,39 @@
 const featureDetials = [
     {
-        image: 'images/YB.jpg',
-        name: 'Yochai Berkman',
-        post: 'Berkman Professor of Entrepreneurial legal studies at arvard law of school',
-        description: 'Benkler studied commons-based peer production, and published his seminal book The Wealth ofNetworks in 2006.'
+        image: 'images/I1.jpg',
+        name: 'Edureka',
+        post: 'YouTube Channel',
+        description: 'Edureka is online Youtube Channel which has Web Devlopment and many other courses videos'
     }
     , {
-        image: 'images/Chon_Kilnam.jpg',
-        name: 'Kilnam Chon',
-        post: '',
-        description: 'Kilnam Chon helped bring the internet to asia and is an outspoken advocate for the open web and digital common.In 2012,he was inducted to an inauguaral class of internet society(ISOC) ITERNET HALL OF FAME.'
+        image: 'images/I2.jpg',
+        name: 'Oniline Tutorials',
+        post: 'YouTube Channel',
+        description: 'Oniline Tutorials is online Youtube Channel which has Web Devlopment mainly focus on Css.'
     }
     , {
-        image: 'images/SohY.jpg',
-        name: 'SohYeong Noh',
-        post: 'Director of Art Centre Nobi and the board member of Korea',
-        description: 'As the main venue of the media art production in korea ,Nabi promotes crosss disciplinary collabration and understanding among Science technology ,humanities and art.'
+        image: 'images/I3.webp',
+        name: 'Web Dev Simplified',
+        post: 'YouTube Channel',
+        description: 'Web Dev Simplified  is online Youtube Channel which has Web Devplopment CSS videos.'
     }
     , {
-        image: 'images/julia.jpg',
-        name: 'Julia Leda',
-        post: 'President of Young Pirates of Europe',
-        description: 'Eureopen ingetration,Politiczal democracy and participation of the Youth through oniline as her major condem,Reda\'s report ouding political changes to EU copywrite law was approved by the parliament in July.'
+        image: 'images/I4.png',
+        name: 'Udemy',
+        post: 'Online Website',
+        description: 'Udemy is online Website  which has Web Devlopment and many other courses videos with lectures and notes.'
     }
     , {
-        image: 'images/lila.jpg',
-        name: 'Lila Tretikov',
-        post: 'Executive Director of the Wikimedia Foundation',
-        description: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation,the nonprofit organizaton that operates wikipedia.Wikipedia is freely available in 290 languges and used by nearly half a million people around the world every month.'
+        image: 'images/I5.png',
+        name: 'Skill Share',
+        post: 'Online Website',
+        description: 'Skill share  is online Website which has Web Devlopment and many other courses videos and lectures.'
     }
     , {
-        image: 'images/ryan.jpg',
-        name: 'Ryan Merkley',
-        post: 'CEO of Commons,ex COO of the Mozilla Foundation',
-        description: 'Ryan has been leading open source projects at Mozilla Foundation such as the open source movement.'
+        image: 'images/I6.png',
+        name: 'Coursea',
+        post: 'Online Website',
+        description: 'Coursea is online Website which has Web Devlopment and many other courses videos and lecture with Notes.'
     }
 ]
 
