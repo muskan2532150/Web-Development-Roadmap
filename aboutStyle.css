@@ -110,7 +110,7 @@ img {
 
   /* MoreInfo */
 .moreInfo p {
-    width: 55%;
+    width: 80%;
     margin: auto;
 }
 /* Partner */
@@ -179,6 +179,10 @@ img {
 
     .about-p {
         width: 70%;
+      }
+
+      .moreInfo p {
+        width: 55%;
       }
 
     .footer {

@@ -53,7 +53,7 @@ h3 {
 }
 
 .intro > h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
@@ -243,6 +243,10 @@ h3 {
   .para {
     width: 70%;
     height: auto;
+  }
+
+  .intro > h1 {
+    font-size: 60px;
   }
 
   .intro > p {
