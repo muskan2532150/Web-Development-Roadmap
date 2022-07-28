@@ -5,17 +5,43 @@
     font-family: 'Lato';
     scroll-behavior: smooth;
     transition: .5s ease;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
-.nav-item > a:hover,
-.about-p
-{
+/* header {
+    width: 100%;
+} */
+
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+nav,
+h1,
+h3 {
+    width: 100%;
+}
+
+.nav-1 {
+    display: none;
+}
+
+.nav-1 ul li {
+    list-style: none;
+}
+
+.nav-item > a:hover {
     color: #ec5242;
     font-family: 'COCOGOOSE';
 }
 
+/* Click */
 .click {
-    background-color: #ec5242;
+    background-color: #272a31;
     opacity: 0.8;
     position: fixed;
     padding: 45px;
@@ -36,7 +62,7 @@
 
 .click .nav-link {
     font-family: 'COCOGOOSE';
-    font-size: 49px;
+    font-size: 35px;
     color: #fff;
 }
 
@@ -59,7 +85,7 @@
 
 .about {
     background-image: url(images/main-background.png);
-    height: 61vh;
+    height: 100vh;
 }
 
 .intro {
@@ -67,17 +93,27 @@
 }
 
 .intro > h1 {
-    padding-top: 85px;
     font-size: 60px;
     font-family: 'COCOGOOSE';
 }
 
-.intro > p {
+.about-p {
     margin-right: 2px;
-    width: 70%;
+    width: 90%;
     font-size: 20px;
     padding: 15px;
     box-shadow: -4px 10px 20px 0px black;
+}
+
+.intro-p {
+    width: auto;
+    box-shadow: none;
+    color: #ec5242;
+    padding: 15px;
+    margin-right: 2px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 70px;
 }
 
 .intro > button {
@@ -85,6 +121,7 @@
     font-size: 30px;
 }
 
+/* Main Program */
 .mainProgram {
     background-image: url(images/pattern-bg.png);
     background-color: #272a31;
@@ -119,19 +156,14 @@
 
 .para {
     padding-left: 10px;
-    text-align: left;
-}
-
-.para p {
+    text-align: left; 
     margin: 0;
+    width: 50%;
 }
 
+/* Sources */
 .featureSpeaker {
     padding: 12px;
-}
-
-.feature-div {
-    display: flex;
 }
 
 .feature-h3 {
@@ -159,11 +191,16 @@
 }
 
 .feature-img {
-    width: 30%;
+    width: 35%;
     height: fit-content;
     padding: 12px;
 }
 
+.feature-p {
+    width: 180px;
+}
+
+/* Partner */
 .partner,
 .partner-link {
     color: #d3d3d3;
@@ -174,9 +211,29 @@
 }
 
 @media only screen and (min-width:768px) {
+    .nav-1 {
+        display: block;
+    }
 
-    .feature-img {
-        width: 15%;
+    /* .nav-1 ul {
+        width: 100%;
+    } */
+
+    .about {
+        height:auto;
+    }
+
+    .about-p {
+        width: 70%;
+    }
+
+    .feature-p {
+        width: 80%;
+    }
+
+    .para {
+        width: 70%;
+        height: auto;
     }
 
     .intro > p {
@@ -198,5 +255,14 @@
 
     .mainProgram > div > button i {
         padding-bottom: 12px;
+    }
+
+    .div-sources {
+        grid-template-columns: repeat(2,45%);
+    }
+    
+    .partner-link {
+        width: fit-content;
+        margin-left: auto;
     }
 }

@@ -14,9 +14,18 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body class="container">
-
-  <nav class="navbar navbar-expand-md position-sticky top-0 bg-white">
+<body >
+<header class="position-sticky top-0">
+  <div class="nav-1 bg-dark">
+    <ul class="d-flex float-right gap-3 m-0 justify-content-end p-3 align-items-center">
+      <li class="text-white "><i class="fa-brands fa-square-facebook"></i> </li>
+      <li class="text-white "><i class="fa-brands fa-github"></i></li>
+      <li class="text-white">Logout</li>
+      <li class="text-white">Mypage</li>
+      <li class="text-white">India</li>
+    </ul>
+  </div>
+  <nav class="navbar navbar-expand-md  bg-white">
     <div class="container toggles justify-content-md-evenly">
       <a class="navbar-brand" href="#"><i class="fa-solid fa-won-sign fa-2xl"></i></a>
       <button class=" btn burger d-md-none" type="button"><i class="fa-solid fa-bars"></i></button>  
@@ -33,12 +42,14 @@
       </div>
     </div>
   </nav>
+</header>
+  
 
   <section class="about ps-4" id="About">
-    <div class="intro">
-      <h1 class="pb-3"><p class="pt-0 fs-4 ">Hello! Students</p>
-        Learn without <br> limits</h1>
-      <p class="border border-white pt-5"> Start, switch, or advance your career with more than 5,000 courses, Professional
+    <div class="intro pt-5">
+      <p class="intro-p fs-4 ">Hello! Students</p>
+      <h1 class="pb-3">Learn without <br> limits</h1>
+      <p class="border border-white pt-5 about-p"> Start, switch, or advance your career with more than 5,000 courses, Professional
         Certificates, and degrees from world-class universities and companies</p>
     </div>
   </section>
@@ -47,46 +58,38 @@
     <div class="mainProgram text-center">
       <h3 class="text-white pt-5 pb-3">Main Program</h3>
       <hr>
-      <div class="d-flex flex-column flex-md-row">
-        <button class="btn d-flex flex-md-column ">
-          <i class="fa-solid fa-display fa-2xl text-white "></i>
+      <div class="d-flex flex-column flex-md-row " type="button">
+        <button class="btn d-flex flex-md-column "type="button">
+          <i class="fa-solid fa-display fa-2xl pe-3 text-white "></i>
           <h4 class="pt-2">Lecture</h4>
-          <div class="para">
-            <p class="text-white">Listen to the speakers from various countries about the messages of sharing and
+            <p class="text-white ps-3 pb-2 para">Listen to the speakers from various countries about the messages of sharing and
               opening.
             </p>
-          </div>
         </button>
-        <button class="btn d-flex flex-md-column ">
-          <i class="fa-solid fa-message fa-2xl text-white"></i>
+        <button class="btn d-flex flex-md-column "type="button">
+          <i class="fa-solid fa-message fa-2xl pe-3 text-white"></i>
           <h4 class="pt-2">Forum</h4>
-          <div class="para">
-            <p class="text-white ">Have the time to share your thoughts and opinions with expert for each topic.</p>
-          </div>
+            <p class="text-white para pb-2 ps-3">Have the time to share your thoughts and opinions with expert for each topic.</p>
         </button>
-        <button class="btn d-flex flex-md-column">
-          <i class="fa-solid fa-desktop fa-2xl text-white"></i>
+        <button class="btn d-flex flex-md-column"type="button">
+          <i class="fa-solid fa-desktop fa-2xl pe-3 text-white"></i>
           <h4 class="pt-2">Workshop </h4>
-          <div class="para">
-            <p class="text-white">Trying creating your own work using open source license rather than just watching in
+            <p class="text-white ps-3 pb-2 para">Trying creating your own work using open source license rather than just watching in
               it.
             </p>
-          </div>
         </button>
-        <button class="btn d-flex flex-md-column ">
-          <i class="fa-solid fa-code fa-2xl text-white"></i>
+        <button class="btn d-flex flex-md-column "type="button">
+          <i class="fa-solid fa-code fa-2xl pe-3 text-white"></i>
           <h4 class="pt-2">Challenge</h4>
-          <div class="para">
-            <p class="text-white">The questions in these coding challenges test your algorithms and data structure
+            <p class="text-white ps-3 pb-2 para">The questions in these coding challenges test your algorithms and data structure
               knowledge.</p>
-          </div>
         </button>
       </div>
-      <button class=" btn text-white p-3 mt-3"><u>SEE THE WHOLE PROGRAM</u></button>
+      <button class=" btn text-white p-3 pb-2 mt-3" type="button"><u>SEE THE WHOLE PROGRAM</u></button>
     </div>
   </section>
 
-  <section class="featureSpeaker pt-5" id="feature"></section>
+  <section class="featureSpeaker pt-5 " id="feature"></section>
   <section class="partner bg-dark pt-5">
     <h3 class="partner-h3 pb-3 text-center"> Partner</h3>
     <hr class="partner-hr pt-5">
@@ -109,7 +112,7 @@
     </div>
   </section>
 
-  <section class="footer d-flex  p-5">
+  <section class="footer d-flex justify-content-lg-evenly  p-5">
     <div class="pe-5"><i class="fa-solid fa-won-sign fa-2xl"></i></div>
     <div class="text">
       <h3>2022 Web Academey</h3>
