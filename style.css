@@ -126,6 +126,10 @@ h3 {
   width: 50%;
 }
 
+.main-btn {
+    background-color: #ec5242;
+}
+
 /* Sources */
 .featureSpeaker {
   padding: 12px;
@@ -166,12 +170,17 @@ h3 {
 }
 
 /* Partner */
+.partner {
+    display: none;
+}
+
 .partner,
 .partner-link {
   color: #d3d3d3;
 }
 
 .footer {
+    display: none;
   background-color: #d3d3d3;
 }
 
@@ -244,6 +253,10 @@ h3 {
     padding-left: 10%;
   }
 
+  .main-btn {
+    background-color: transparent;
+}
+
   .div-11 {
     width: 20%;
     margin-right: 10px;
@@ -272,5 +285,13 @@ h3 {
   .partner-link {
     width: fit-content;
     margin-left: auto;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .partner {
+    display: block;
   }
 }
