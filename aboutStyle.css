@@ -1,0 +1,212 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  transition: 0.5s ease;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav,
+h1,
+h3 {
+  width: 100%;
+}
+
+.moreInfo h3,
+.webLogo h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.nav-1 {
+  display: none;
+}
+
+.nav-1 ul li {
+  list-style: none;
+}
+
+.nav-item a {
+  color: #272a31;
+  font-size: 20px;
+}
+
+.nav-item > a:hover {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.about {
+  background-image: url(images/main-background.png);
+
+  /* height: 100vh; */
+}
+
+.about h1 {
+  color: #ec5242;
+  padding-top: 65px;
+}
+
+.about-p {
+  margin-right: 2px;
+  width: 90%;
+  font-size: 20px;
+  padding: 15px;
+  box-shadow: -4px 10px 20px 0 black;
+  background-color: #fff;
+}
+
+.hr-1 {
+  margin: 2px;
+}
+
+img {
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  padding-top: 100px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 65px;
+}
+
+.intro > h1 {
+  font-size: 60px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.webLogo hr,
+.moreInfo hr {
+  color: #ec5242;
+  margin: auto;
+  opacity: 1;
+  margin-bottom: 32px;
+  width: 12%;
+}
+
+.web-btn {
+  border: 0;
+  width: 23%;
+  padding: 5px;
+  background-color: #ec5242;
+  color: #fff;
+}
+
+.web-btn-1 {
+  width: 31%;
+}
+
+.webLogo div {
+  gap: 12px;
+  justify-content: center;
+}
+
+/* MoreInfo */
+.moreInfo p {
+  width: 80%;
+  margin: auto;
+}
+
+/* Partner */
+.partner {
+  display: block;
+}
+
+.partner,
+.partner-link {
+  color: #d3d3d3;
+}
+
+.footer {
+  display: none;
+  background-color: #d3d3d3;
+}
+
+/* Click */
+.click {
+  background-color: #272a31;
+  opacity: 0.7;
+  position: fixed;
+  padding: 45px;
+  top: 0;
+  bottom: 0;
+}
+
+.click .burger,
+.click a > i {
+  display: none;
+}
+
+.click .close-btn {
+  display: block !important;
+  font-size: 35px;
+  color: #fff;
+}
+
+.click .nav-link {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+
+.click #navbarNav {
+  display: flex !important;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start !important;
+  line-height: 30px;
+}
+
+.click .nav-item {
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-1 {
+    display: block;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about-p {
+    width: 70%;
+  }
+
+  .intro-h4 {
+    display: inline;
+  }
+
+  .moreInfo p {
+    width: 55%;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .web-btn-1,
+  .web-btn {
+    margin: 12px;
+    width: 23%;
+    width: 54%;
+    font-size: 25px;
+  }
+
+  img {
+    padding: 90px;
+    max-width: 60%;
+    height: auto;
+  }
+}
