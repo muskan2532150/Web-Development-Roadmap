@@ -5,10 +5,10 @@ Making a Web Development Course Website
  ![Project Image](images/website.png)
 
  ### Live Demo
- https://muskan2532150.github.io/First_Capstone/#feature
+ [Live Demo](https://muskan2532150.github.io/First_Capstone/)
 
  ### Live video
- click [here] (https://drive.google.com/file/d/1-oQmHVNDO1gW_qwwB1b0XiWY0sRjhsvg/view?usp=sharing) to watch here .
+ click [here](https://drive.google.com/file/d/1-oQmHVNDO1gW_qwwB1b0XiWY0sRjhsvg/view?usp=sharing) to watch here .
 
 ## Built With
 
@@ -54,10 +54,13 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 - Linter (Stylelint) is installed.
 
 
-## Author
+## Authors
 
-- GitHub: @muskan2532150
-- Twitter: @muskan2532150
+ 
+### 👤 MUSKAN GUPTA
+- GitHub: [@github](https://github.com/muskan2532150)
+- Twitter: [@twitter](muskan2532150)
+- Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
 
 ## 🤝 Contributing
 
