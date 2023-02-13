@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
  ```
 - Clone the project repo
 ```bash 
-https://github.com/muskan2532150/First_Capstone.git
+https://github.com/muskan2532150/Web-Development-Roadmap.git
 ```
 - Install Webpack 
 ```bash
@@ -56,7 +56,7 @@ npm start
 ### 👤 MUSKAN GUPTA
 - GitHub: [@github](https://github.com/muskan2532150)
 - Twitter: [@twitter](muskan2532150)
-- Linkedin:[Username](https://www.linkedin.com/in/muskan-gupt/)
+- Linkedin: [@linkedin](https://www.linkedin.com/in/muskan-gupt/)
 
 ## 🤝 Contributing
 
