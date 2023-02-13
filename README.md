@@ -53,8 +53,10 @@ npm i
 npm start
 ```
 
-## Author
+## Authors
 
+ 
+### 👤 MUSKAN GUPTA
 - GitHub: [@github](https://github.com/muskan2532150)
 - Twitter: [@twitter](muskan2532150)
 - Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
