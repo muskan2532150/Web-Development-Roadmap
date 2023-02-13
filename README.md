@@ -1,29 +1,29 @@
 # Web Development
-Making a Web Development Course Website
-
-### User Interface
- ![Project Image](images/website.png)
+The Web Development website majores displays all the information related to web development career.Well organized  and detailed sources to learn skil in both reading and visual format
 
  ### Live Demo
- https://muskan2532150.github.io/First_Capstone/#feature
-
- ### Live video
- click [here] (https://drive.google.com/file/d/1-oQmHVNDO1gW_qwwB1b0XiWY0sRjhsvg/view?usp=sharing) to watch here .
+ [Live Demo](https://muskan2532150.github.io/First_Capstone)
 
 ## Built With
 
 ###### Languages 
 - HTML
 - CSS
-- BOOSTRAP
 - JAVASCRIPT
+- Bootstrap
+
 ###### Tools  
 - Github
+
 ###### Code Editor
 - VS code
+
 ###### Packages 
 - NPM
 - Node
+
+###### JS Library
+- Anime
 
 ## Getting Started
 
@@ -42,22 +42,22 @@ To get a local copy up and running follow these simple example steps.
  ```
 - Clone the project repo
 ```bash 
-https://github.com/muskan2532150/PORTFOLIO.git
+https://github.com/muskan2532150/First_Capstone.git
 ```
-
-#### Linter
-- Create a .github/workflow folder and paste linter.yml file.
-- Run linter command in terminal
+- Install Webpack 
 ```bash
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+npm i
 ```
-- Linter (Stylelint) is installed.
-
+- Run Webpack
+```bash
+npm start
+```
 
 ## Author
 
-- GitHub: @muskan2532150
-- Twitter: @muskan2532150
+- GitHub: [@github](https://github.com/muskan2532150)
+- Twitter: [@twitter](muskan2532150)
+- Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
 
 ## 🤝 Contributing
 
@@ -72,8 +72,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Cindy Shin
-- Original design idea by (Cindy Shin in Behance) [https://www.behance.net/adagio07].
 
 ## 📝 License
 

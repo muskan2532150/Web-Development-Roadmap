@@ -40,13 +40,13 @@ h3 {
 }
 
 .about {
-  background-image: url(images/main-background.png);
+  background-image: url(images/bg1.webp);
 
   /* height: 100vh; */
 }
 
 .about h1 {
-  color: #ec5242;
+  color: #cb2817;
   padding-top: 65px;
 }
 
@@ -55,7 +55,7 @@ h3 {
   width: 90%;
   font-size: 20px;
   padding: 15px;
-  box-shadow: -4px 10px 20px 0 black;
+  box-shadow: 1px 5px 3px 0 rgb(0 0 0 / 37%);
   background-color: #fff;
 }
 
