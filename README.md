@@ -5,8 +5,6 @@ This website helps to search for information related to web development. It cont
  ### Live Demo
  [Live Demo](https://muskan2532150.github.io/Web-Development-Roadmap/)
 
- [](images/webdev.png)
-
 ## Built With
 
 ###### Languages 
@@ -24,9 +22,6 @@ This website helps to search for information related to web development. It cont
 ###### Packages 
 - NPM
 - Node
-
-###### JS Library
-- Anime
 
 ## Getting Started
 
