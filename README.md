@@ -1,8 +1,11 @@
-# Web Development
-The Web Development website majores displays all the information related to web development career.Well organized  and detailed sources to learn skil in both reading and visual format
+# Web Development-Roadmap
+
+This website helps to search for information related to web development. It contains the roadmaps, sources, channels, and dept information such as language, tools, and other materials to enhance your coding skills.
 
  ### Live Demo
- [Live Demo](https://muskan2532150.github.io/First_Capstone)
+ [Live Demo](https://muskan2532150.github.io/Web-Development-Roadmap/)
+
+ [](images/webdev.png)
 
 ## Built With
 
@@ -55,11 +58,10 @@ npm start
 
 ## Authors
 
- 
 ### 👤 MUSKAN GUPTA
 - GitHub: [@github](https://github.com/muskan2532150)
 - Twitter: [@twitter](muskan2532150)
-- Linkedin:[Username](https://www.linkedin.com/in/muskan-gupta-869165225/)
+- Linkedin:[Username](https://www.linkedin.com/in/muskan-gupt/)
 
 ## 🤝 Contributing
 
